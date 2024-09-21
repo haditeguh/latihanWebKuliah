@@ -1,0 +1,7 @@
+gaji pokok =    3.500.000
+transport =     625.000
+bpjs =          175.000
+gaji bersih =   (gaji pokok - bpjs) + transport
+            =   3.500.000 - 175.000 + 625.000
+            =   3325000             + 625.000
+            =   3.950.000

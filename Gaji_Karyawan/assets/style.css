@@ -1,0 +1,66 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubuntuBold;
+    src: url(fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+* {
+    font-family: ubuntu, serif;
+    background-color: #dbe2f5;
+    color: #000d2f;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.input {
+    float: left;
+    margin-left: 35vh;
+}
+
+.input h4 {
+    font-family: ubuntuBold, serif;
+    font-size: larger;
+    line-height: 1;
+    text-align: center;
+}
+
+.inputData {
+    line-height: 3;
+}
+
+.output {
+    float: right;
+    margin-right: 35vh;
+}
+
+.output h4 {
+    font-family: ubuntuBold, serif;
+    font-size: larger;
+    line-height: 1;
+    text-align: center;
+}
+
+.inputBtn input {
+    clear: both;
+    font-size: large;
+    padding: 7px;
+    background-color: #000d2f;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.inputBtn input:hover {
+    color: #000d2f;
+    background-color: aliceblue;
+}
