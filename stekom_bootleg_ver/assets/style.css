@@ -1,0 +1,283 @@
+@font-face {
+	font-family: 'Song Myung';
+	src: url(fonts/SongMyung-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Baloo 2';
+	src: url(fonts/Baloo2-VariableFont_wght.ttf);
+}
+
+body {
+	font-family: 'Baloo 2', serif;
+	margin: 0;
+	padding: 0;
+	color: #1e2029;
+	background-color: #f0f0f0;
+}
+
+nav {
+	color: #e8e8e8;
+	background-color: #333;
+	font-family: 'Song Myung', serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5% 0 5%;
+}
+
+.navLogo {
+	font-size: 25px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar {
+	font-size: 18px;
+}
+
+.navbar li {
+	float: right;
+}
+
+.navbar li a {
+	color: #e8e8e8;
+	text-align: center;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color:rgba(92, 89, 89, 1);
+}
+
+.toplogo {
+	padding-top: 20px;
+}
+
+.jumbotron {
+	font-family: 'Song Myung', sans-serif;
+	font-size: 30px;
+	color: antiquewhite;
+	text-shadow: 2px 2px 4px #000000;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	height: 100vh;
+	width: auto;
+	background-image: url(pictures/kampus2.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+main {
+	float: left;
+	padding: 40px;
+	background-color: #F7EDE2;
+	overflow: auto;
+}
+
+section {
+	float: left;
+	width: 73%;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: 10px;
+	padding: 10px 10px 5px 20px;
+	width: 90%;
+}
+
+.cardTable {
+	margin: 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 5px 20px 20px 20px;
+	width: 80%;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	height: 200px;
+}
+
+table, th, td {
+	border : 1px solid #4c566a;
+	border-spacing: 0;
+}
+
+td {
+	border-collapse: collapse;
+}
+
+table.center {
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.cardTable>aside {
+	width: 30%;
+}
+
+aside {
+	float: right;
+	box-sizing: border-box;
+}
+
+.footerContainer, .footer_center {
+	clear: both;
+	padding: 50px 50px 10px;
+	color: white;
+	background-color: #262626;
+	overflow: auto;
+}
+
+.footer_left {
+	text-align: center;
+	line-height: 0.5cm;
+	float: left;
+	width: 45%;
+}
+
+.about {
+	font-size: larger;
+}
+
+.footer_right {
+	padding: 70px 0;
+	float: right;
+	width: 45%;
+}
+
+.footer_right p {
+	font-size: larger;
+}
+
+.wrapper .button {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0 5px;
+	background-color: #fff;
+	color: #000000;
+	border-radius: 50px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 1px rgba(84,203,255,0.37);
+	transition: all 0.3s ease-out;
+	overflow: hidden;
+}
+
+.wrapper .button:hover {
+	width: 155px;
+}
+
+.wrapper .button .icon {
+	display: inline-block;
+    padding-top: 4px;
+    padding-left: 1px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50px;
+	box-sizing: border-box;
+	line-height: 40px;
+	transition: all 0.3s ease-out;
+}
+
+.igSVG {
+    background-image: url('icons/ig.svg');
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fbSVG {
+    background-image: url('icons/fb.svg');
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.twitSVG {
+    background-image: url('icons/twit.svg');
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gitSVG {
+    background-image: url('icons/git.svg');
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+	background-color: #e1306c;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+	background-color: #4267b2;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+	background-color: #1da1f2;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+	background-color: #333;
+}
+
+.wrapper .button .icon i {
+	font-size: 25px;
+	line-height: 40px;
+	transition: all 0.3s ease-out;
+}
+
+
+.wrapper .button:hover .icon i {
+	color: #fff;
+}
+
+.wrapper .button span {
+    margin-left: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+	color: #e1306c;
+}
+
+.wrapper .button:nth-child(2) span {
+	color: #4267b2;
+}
+
+.wrapper .button:nth-child(3) span {
+	color: #1da1f2;
+}
+
+.wrapper .button:nth-child(4) span {
+	color: #333;
+}
+
+.footer_center {
+	text-align: center;
+}

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: AnekOdia;
+    src: url(fonts/AnekOdia-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    font-family: AnekOdia, serif;
+    background-color: #E6E6E6;
+    color: #202024;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    width: 250px;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 0;
+}
+
+.sidenav a {
+    color: darkcyan;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.sidenav a:hover {
+    color: #202024;
+}
+
+.active {
+    color: #202024;
+    text-shadow: 2px 2px 7px darkcyan;
+}
+
+.sidenav a:is(:link, :active, :visited).active {
+    color: #202024;
+    text-shadow: 2px 2px 7px darkcyan;
+}
+
+li {
+    direction: rtl;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    font-size: 40px;
+    margin-left: 40px;
+    width: 50%;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#home {
+    font-size: 60px;
+}
+
+#about, #profile, #contact, #recipe {
+    margin-left: 50px;
+}
+
+#contact a{
+    font-size: smaller;
+    padding-left: 10px;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#contact a:hover {
+    color: #202024;
+}
+
+i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+span {
+    font-size: 30px;
+}
